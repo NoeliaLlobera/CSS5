@@ -1,0 +1,50 @@
+*{
+box-sizing:border-box;
+font-family:sans-serif;
+}
+    body{
+        width: 800px;
+        margin: 0px auto;
+    }
+p{
+color:grey;
+}
+#title-1{
+    text-decoration: underline;
+}
+.bg-yellow{
+    width: 100px;
+    background-color: rgb(254, 254, 165);
+}
+[id]{
+    font-style:italic;
+}
+[id="title-1"]{
+    color:rgb(255, 192, 104);
+}
+[href="https://www.yahoo.com"]{
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    border:1px solid grey;
+    background-color:rgb(160, 145, 255);
+}
+        [href="https://www.yahoo.com"]:hover{
+            background-color: grey;
+        }
+        [href="https://www.yahoo.com"]:active{
+            color: white;
+        }
+[class^="title"]{
+
+}
+[href$=".com"]{
+    font-weight: bold;
+}
+[class^="title"]{
+     color: rgb(181, 234, 181);
+}
+
+
+
+
