@@ -41,10 +41,46 @@ color:grey;
 [href$=".com"]{
     font-weight: bold;
 }
+
 [class^="title"]{
      color: rgb(181, 234, 181);
 }
 
+[href*="127"]{
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    border:1px solid grey;
+    background-color:rgb(145, 255, 185);
+}
+        [href*="127"]:hover{
+            background-color: grey;
+        }
+        [href*="127"]:active{
+            color: white;
+        }
+[href^="http"]{
+    color: black;
+}
+    [href^="http"]:hover{
+        color: gray;
+    }
+    [href^="http"]:active{
+        color: rgb(193, 193, 193);
+    }
+a,p,h1{
 
+}
+main p{
 
+}
+h1 + * {
 
+}
+
+h1 ~ * {
+
+}
+main > *{
+    
+}
